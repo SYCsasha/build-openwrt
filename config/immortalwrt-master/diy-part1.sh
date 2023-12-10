@@ -6,7 +6,7 @@
 # Source code repository: https://github.com/immortalwrt/immortalwrt / Branch: master
 #========================================================================================================================
 
-# Add a feed source
+Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git packages https://github.com/immortalwrt/packages.git' feeds.conf.default
 sed -i '$a src-git luci https://github.com/immortalwrt/luci.git' feeds.conf.default
