@@ -17,7 +17,7 @@ on:
         options:
           - openwrt-main
           - lede-master
-          - immortalwrt-master
+          - immortalwrt-openwrt-23.05
           - Lienol-master
       
 env:
@@ -74,7 +74,7 @@ jobs:
               REPO_BRANCH="master"
               TAGS_NAME="lede"
           elif [[ "${{ inputs.source_branch }}" == *"immortalwrt"* ]]; then
-              REPO_URL="https://github.com/immortalwrt/packages/tree/openwrt-23.05"
+              REPO_URL="https://github.com/immortalwrt/immortalwrt"
               REPO_BRANCH="openwrt-23.05"
               TAGS_NAME="immortalwrt"
           elif [[ "${{ inputs.source_branch }}" == *"Lienol"* ]]; then
