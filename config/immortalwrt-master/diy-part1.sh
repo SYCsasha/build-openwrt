@@ -6,7 +6,7 @@
 # Source code repository: https://github.com/immortalwrt/immortalwrt / Branch: master
 #========================================================================================================================
 
-Add a feed source
+# Add a feed source
 sed -i '$a src-git pack8 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
 # other
 # rm -rf package/emortal/{autosamba,ipv6-helper}
