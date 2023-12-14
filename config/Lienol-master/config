@@ -612,8 +612,7 @@ CONFIG_FEED_routing=y
 CONFIG_FEED_telephony=y
 CONFIG_FEED_kenzo=y
 CONFIG_FEED_small=y
-CONFIG_FEED_smal=y
-CONFIG_FEED_smal=y
+CONFIG_FEED_pack=y
 
 #
 # Base system
